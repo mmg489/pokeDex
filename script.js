@@ -46,6 +46,7 @@ function searchPokemon() {
       document.getElementById("pokemonData").innerHTML = pokemonData;
     })
     .catch(function(error) {
+      // document.getElementById("hidden").innerHTML = error;
       console.log(error);
     });
 }
