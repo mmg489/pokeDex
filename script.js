@@ -34,7 +34,8 @@ function searchPokemon() {
     })
     .then(function(data) {
       var pokemonData = "<h2>" + data.name + "</h2>";
-      // pokemonData += "<img src='" + data.sprites.front_default + "' alt='Pokemon Image'>";
+      console.log(data)
+      pokemonData += "<img src='" + data.sprites.front_default + "' alt='Pokemon Image'>";
       pokemonData += "<p>Height: " + data.height + "</p>";
       pokemonData += "<p>Weight: " + data.weight + "</p>";
 
