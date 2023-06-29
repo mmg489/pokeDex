@@ -15,7 +15,7 @@
 
   // }
 
-  pokeSearch();
+  // pokeSearch();
 
 // fetch('https://pokeapi.co/api/v2/pokemon/charizard').then((response)=> response.json())
 // .then((data) => {
@@ -34,7 +34,7 @@ function searchPokemon() {
     })
     .then(function(data) {
       var pokemonData = "<h2>" + data.name + "</h2>";
-      pokemonData += "<img src='" + data.sprites.front_default + "' alt='Pokemon Image'>";
+      // pokemonData += "<img src='" + data.sprites.front_default + "' alt='Pokemon Image'>";
       pokemonData += "<p>Height: " + data.height + "</p>";
       pokemonData += "<p>Weight: " + data.weight + "</p>";
 
@@ -44,3 +44,5 @@ function searchPokemon() {
       console.log(error);
     });
 }
+
+searchPokemon ();
