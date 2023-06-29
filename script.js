@@ -5,7 +5,7 @@ async function pokeSearch() {
     const response = await fetch("https://pokeapi.co/api/v2/pokemon/pikachu");
     const data = await response.json()
     
-    pokeEl.innerHTML = data.species.name
+    // pokeEl.innerHTML = data.species.name
 
     console.log(data);   
 
