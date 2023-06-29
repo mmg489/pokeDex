@@ -12,4 +12,11 @@ body{
 #pokemonInput{
     color:goldenrod;
     background-color: darkred;
+    border-color: goldenrod;
+}
+
+button{
+    color:goldenrod;
+    font-weight: 800;
+    background-color: white;
 }
