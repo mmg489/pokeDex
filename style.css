@@ -17,7 +17,8 @@ body{
 
 button{
     color:goldenrod;
-    font-weight: 800;
+    font-family: Belanosima;
+    font-weight: 900;
     background-color: white;
     border-radius: 10px;
 }
