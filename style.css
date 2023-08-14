@@ -2,7 +2,7 @@
 
 body{
     font-family: Belanosima;
-    background-color: black;
+    background-color: darkred;
     color:rgb(255, 140, 0);
     text-align: center;
     padding-top: 10rem;
@@ -10,19 +10,22 @@ body{
 
 #pokemonInput{
     color:goldenrod;
-    background-color: darkred;
+    background-color: darkblue;
     border-color: goldenrod;
+    border-radius: 10px;
 }
 
 button{
     color:goldenrod;
     font-weight: 800;
     background-color: white;
+    border-radius: 10px;
 }
 
 #container{
-    background-color: darkblue;
+    background-color: grey;
     border: 4rem;
     color: goldenrod;
     border-radius: 4rem;
+    max-width: 67%;
 }
