@@ -52,3 +52,7 @@ function searchPokemon() {
 }
 
 searchPokemon ();
+
+
+//gotta write a function to clear the user input
+clearInput ();
